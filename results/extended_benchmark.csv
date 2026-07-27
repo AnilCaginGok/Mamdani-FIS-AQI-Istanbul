@@ -1,0 +1,31 @@
+PM2.5 (μg/m³),NO₂ (μg/m³),Description,Group,Expected,Fuzzy Value,Fuzzy Category,Crisp Value,Crisp Category,Fuzzy Correct,Crisp Correct
+5.0,10.0,Pure Good (both pollutants low),Pure,Good,0.0,Good,0.099,Good,True,True
+18.0,60.0,Pure Moderate (both moderate),Pure,Moderate,0.738,Good,0.592,Good,False,False
+45.0,100.0,Pure USG (both USG),Pure,Unhealthy for Sensitive Groups,1.738,Moderate,0.986,Good,False,False
+90.0,145.0,Pure Unhealthy (both unhealthy),Pure,Unhealthy,2.738,Unhealthy,1.495,Moderate,True,False
+160.0,185.0,Pure Very Unhealthy (both VU),Pure,Very Unhealthy,3.549,Unhealthy,2.069,Unhealthy for Sensitive Groups,False,False
+5.0,145.0,"Mixed: Good PM2.5, Unhealthy NO₂",Mixed,Unhealthy,2.738,Unhealthy,1.495,Moderate,True,False
+18.0,100.0,"Mixed: Moderate PM2.5, USG NO₂",Mixed,Unhealthy for Sensitive Groups,1.738,Moderate,0.986,Good,False,False
+45.0,10.0,"Mixed: USG PM2.5, Good NO₂",Mixed,Unhealthy for Sensitive Groups,0.0,Good,0.833,Good,False,False
+90.0,60.0,"Mixed: Unhealthy PM2.5, Moderate NO₂",Mixed,Unhealthy,0.738,Good,1.366,Moderate,False,False
+12.0,40.0,Boundary: Good/Moderate crossover,Boundary,Moderate,0.328,Good,0.394,Good,False,False
+35.0,90.0,Boundary: Moderate/USG crossover,Boundary,Unhealthy for Sensitive Groups,1.411,Good,0.888,Good,False,False
+65.0,130.0,Boundary: USG/Unhealthy crossover,Boundary,Unhealthy,2.238,Moderate,1.331,Moderate,False,False
+150.0,180.0,Boundary: Unhealthy/VU crossover,Boundary,Very Unhealthy,3.522,Unhealthy,1.96,Moderate,False,False
+0.0,0.0,Extreme: perfect clean air (zero emissions),Extreme,Good,0.0,Good,0.0,Good,True,True
+250.0,200.0,Extreme: maximum pollution (both at ceiling),Extreme,Very Unhealthy,3.525,Unhealthy,2.96,Unhealthy for Sensitive Groups,False,False
+1.0,5.0,"Extreme: near-zero pollution, rural background",Extreme,Good,0.0,Good,0.049,Good,True,True
+200.0,5.0,"Extreme: VU PM2.5, clean NO₂ → dominated by PM2.5",Extreme,Very Unhealthy,1.738,Moderate,2.465,Unhealthy for Sensitive Groups,False,False
+2.0,190.0,"Extreme: Good PM2.5, VU NO₂ → dominated by NO₂",Extreme,Very Unhealthy,3.696,Very Unhealthy,1.986,Moderate,True,False
+12.0,5.0,EPA boundary: PM2.5 at Good/Moderate edge,EPA-Boundary,Moderate,0.0,Good,0.222,Good,False,False
+35.4,5.0,EPA boundary: PM2.5 at Moderate/USG edge,EPA-Boundary,Moderate,0.0,Good,0.656,Good,False,False
+55.4,5.0,EPA boundary: PM2.5 at USG/Unhealthy edge,EPA-Boundary,Unhealthy for Sensitive Groups,0.217,Good,1.024,Moderate,False,False
+150.4,5.0,EPA boundary: PM2.5 at Unhealthy/VU edge,EPA-Boundary,Unhealthy,1.13,Good,1.964,Moderate,False,False
+5.0,101.4,EPA boundary: NO₂ at Good/Moderate edge,EPA-Boundary,Moderate,1.738,Moderate,1.0,Good,True,False
+5.0,185.0,Asymmetric: Good PM2.5 + near-VU NO₂ → VU,Asymmetric,Very Unhealthy,3.654,Very Unhealthy,1.931,Moderate,True,False
+180.0,10.0,Asymmetric: VU PM2.5 + Good NO₂ → VU,Asymmetric,Very Unhealthy,1.738,Moderate,2.267,Unhealthy for Sensitive Groups,False,False
+8.0,130.0,Asymmetric: Good PM2.5 + Unhealthy NO₂ → Unhealthy,Asymmetric,Unhealthy,2.238,Moderate,1.331,Moderate,False,False
+120.0,20.0,Asymmetric: Unhealthy PM2.5 + Good NO₂ → Unhealthy,Asymmetric,Unhealthy,0.738,Good,1.663,Moderate,False,False
+22.0,70.0,Urban: typical moderate city day,Urban,Moderate,0.738,Good,0.69,Good,False,False
+40.0,85.0,Urban: heavy traffic corridor (USG),Urban,Unhealthy for Sensitive Groups,1.066,Good,0.838,Good,False,False
+85.0,155.0,Urban: industrial district (Unhealthy),Urban,Unhealthy,2.738,Unhealthy,1.604,Moderate,True,False

@@ -1,0 +1,6 @@
+mode=pm25
+pm10_to_pm25_factor=0.85
+bias_correction=0.2871935526015168
+train_accuracy=0.8232550909373543
+val_accuracy=0.8228637748440447
+test_accuracy=0.8254751196866387

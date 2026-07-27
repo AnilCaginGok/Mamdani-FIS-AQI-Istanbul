@@ -1,0 +1,23 @@
+BLU 513E — Real Data Evaluation Summary
+==================================================
+Runtime (s)     : 72.8
+Particulate mode: PM10
+PM10->PM2.5     : 0.65
+Bias correction : +0.7621
+Thresholds      : [1.7318504792063343, 2.2478172523632973, 2.4678172523632975, 3.6251730467436167]
+
+Source     : CSVSource(csv)
+Mode       : PM10 + NO2 (EPA-aligned)
+Hourly rows: 1,062,379
+Stations   : 22
+Date range : 2020-01-01 00:00:00 to 2026-05-17 15:00:00
+Daily rows : 45,951
+  train: 32,165 rows
+  val  : 6,893 rows
+  test : 6,893 rows
+Note       : Native PM10 from IBB (no conversion)
+
+Split metrics (Fuzzy vs Crisp EPA):
+  train  acc= 81.69%  kappa=0.5070  macro-F1=0.3099  rmse=0.5517
+  val    acc= 85.36%  kappa=0.5594  macro-F1=0.3271  rmse=0.4979
+  test   acc= 86.49%  kappa=0.5323  macro-F1=0.3107  rmse=0.4945

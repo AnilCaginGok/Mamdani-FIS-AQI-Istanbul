@@ -1,0 +1,13 @@
+{
+  "particulate_mode": "pm10",
+  "particulate_col": "pm10",
+  "pm10_to_pm25_factor": 0.65,
+  "bias_correction": 0.762058266222892,
+  "category_thresholds": [
+    1.7318504792063343,
+    2.2478172523632973,
+    2.4678172523632975,
+    3.6251730467436167
+  ],
+  "lookup_size": 101
+}

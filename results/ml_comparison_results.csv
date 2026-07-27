@@ -1,0 +1,10 @@
+Method,Accuracy (%),Cohen's kappa,Kappa Label,Macro-F1,MCC,RMSE,MAE
+Gradient Boosting,99.97,0.9991,Substantial,0.9922,0.9991,0.0434,0.0007
+Random Forest,99.96,0.9986,Substantial,0.9875,0.9986,0.0497,0.001
+Decision Tree,99.94,0.9981,Substantial,0.9862,0.9981,0.0511,0.0012
+AdaBoost,99.75,0.9921,Substantial,0.9523,0.9921,0.1222,0.0059
+SVM (RBF),99.62,0.9879,Substantial,0.9017,0.9879,0.1778,0.0102
+k-NN (k=11),99.61,0.9875,Substantial,0.9236,0.9875,0.1811,0.0104
+MLP Neural Net,99.55,0.9856,Substantial,0.7086,0.9856,0.1754,0.0104
+Naive Bayes,95.49,0.8537,Substantial,0.655,0.8539,0.3016,0.0556
+Logistic Regression,93.4,0.7877,Substantial,0.6972,0.7877,0.3355,0.0766

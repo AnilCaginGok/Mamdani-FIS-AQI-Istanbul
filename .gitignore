@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Binary / document / media
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+
+# Non-code folders
+Presentation/
+Report/
+elsevier submission/
+figures_submission/
+author_photos_REQUIRED/
+scripts/
+results/*.png
+
+# Word / OS junk
+~$*
+*.tmp.docx
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local manuscript working copies
+Manuscript_*.docx
+ASOC_*.docx
+ASOC_*.pdf
+BLU513E_*.docx
+BLU513E_*.png
+BLU513E_*.tiff
+SUBMISSION_CHECKLIST.txt
+UPLOAD_NOW.txt
+1-s2.0-*.pdf
+*_BAD_*.docx

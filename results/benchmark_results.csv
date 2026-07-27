@@ -1,0 +1,14 @@
+PM2.5 (μg/m³),NO₂ (μg/m³),Description,Expected,Fuzzy Value,Fuzzy Category,Crisp Value,Crisp Category,Fuzzy Correct,Crisp Correct
+5.0,10.0,Pure Good (both pollutants low),Good,0.542,Good,0.417,Good,True,True
+18.0,60.0,Pure Moderate (both moderate),Moderate,1.5,Moderate,1.268,Moderate,True,True
+45.0,100.0,Pure USG (both USG),Unhealthy for Sensitive Groups,2.5,Unhealthy for Sensitive Groups,2.488,Unhealthy for Sensitive Groups,True,True
+90.0,145.0,Pure Unhealthy (both unhealthy),Unhealthy,3.5,Unhealthy,3.376,Unhealthy,True,True
+160.0,185.0,Pure Very Unhealthy (both VU),Very Unhealthy,4.417,Very Unhealthy,4.104,Very Unhealthy,True,True
+5.0,145.0,"Mixed: Good PM2.5, Unhealthy NO₂",Unhealthy,3.5,Unhealthy,1.495,Moderate,True,False
+18.0,100.0,"Mixed: Moderate PM2.5, USG NO₂",Unhealthy for Sensitive Groups,2.5,Unhealthy for Sensitive Groups,1.268,Moderate,True,False
+45.0,10.0,"Mixed: USG PM2.5, Good NO₂",Unhealthy for Sensitive Groups,2.5,Unhealthy for Sensitive Groups,2.488,Unhealthy for Sensitive Groups,True,True
+90.0,60.0,"Mixed: Unhealthy PM2.5, Moderate NO₂",Unhealthy,3.5,Unhealthy,3.376,Unhealthy,True,True
+12.0,40.0,Boundary: Good/Moderate crossover,Moderate,1.5,Moderate,1.0,Good,True,False
+35.0,90.0,Boundary: Moderate/USG crossover,Unhealthy for Sensitive Groups,2.5,Unhealthy for Sensitive Groups,1.983,Moderate,True,False
+65.0,130.0,Boundary: USG/Unhealthy crossover,Unhealthy,3.5,Unhealthy,3.118,Unhealthy,True,True
+150.0,180.0,Boundary: Unhealthy/VU crossover,Very Unhealthy,4.345,Very Unhealthy,3.996,Unhealthy,True,False
